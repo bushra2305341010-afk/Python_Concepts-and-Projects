@@ -1,0 +1,8 @@
+t = (1, 2, 3, 4, 5, 1, 2, 3)
+print(len(t))
+print(t)
+print(t[0])
+print(t[-1])
+print(t[::-1])
+print(t.index(2))
+print(t.count(2))

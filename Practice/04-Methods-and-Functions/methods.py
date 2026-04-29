@@ -1,0 +1,23 @@
+l = [1, 2, 3, 4, 5]
+l.append(6)
+print(l)
+print(l.count(2))
+l.extend((x for x in range(7, 11)))
+print(l)
+l.insert(2, 'insert')
+print(l)
+print(l.pop())
+print(l.pop(2))
+print(l)
+l.remove(5)
+print(l)
+try:
+    l.remove(5)
+except ValueError:
+    print('Value not present')
+l.reverse()
+print(l)
+l.sort()
+print(l)
+l.sort(reverse=True)
+print(l)

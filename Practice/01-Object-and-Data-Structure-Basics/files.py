@@ -1,0 +1,10 @@
+my_file = open('test_file.txt', 'w+')
+my_file.write('This is new data\n')
+my_file.write('Some more data')
+my_file.seek(0)
+print(my_file.readlines())
+my_file.seek(0)
+print(my_file.read())
+my_file.seek(0)
+for line in open('test_file.txt'):
+    print(line)
